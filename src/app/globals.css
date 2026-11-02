@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/* daisyUI supplies the component classes (btn, card, input, badge...). Our own two themes are defined below
+   and switched with the data-theme attribute on <html>. */
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+/* ---------- HopeHive light: warm paper, deep teal, amber ---------- */
+@plugin "daisyui/theme" {
+  name: "hopehive-light";
+  default: false;
+  prefersdark: false;
+  color-scheme: light;
+
+  --color-base-100: #fffdf9;
+  --color-base-200: #f6f1e8;
+  --color-base-300: #e4dbc9;
+  --color-base-content: #1c2a29;
+
+  --color-primary: #0f766e;
+  --color-primary-content: #ffffff;
+  --color-secondary: #f59e0b;
+  --color-secondary-content: #2a1700;
+  --color-accent: #d9482b;
+  --color-accent-content: #ffffff;
+  --color-neutral: #0c3532;
+  --color-neutral-content: #e3f1ee;
+
+  --color-info: #0e7490;
+  --color-info-content: #ffffff;
+  --color-success: #15803d;
+  --color-success-content: #ffffff;
+  --color-warning: #d97706;
+  --color-warning-content: #1f1200;
+  --color-error: #c62828;
+  --color-error-content: #ffffff;
+
+  --radius-selector: 1rem;
+  --radius-field: 0.75rem;
+  --radius-box: 1.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+/* ---------- HopeHive dark: deep forest night ---------- */
+@plugin "daisyui/theme" {
+  name: "hopehive-dark";
+  default: false;
+  prefersdark: false;
+  color-scheme: dark;
+
+  --color-base-100: #0e1918;
+  --color-base-200: #132422;
+  --color-base-300: #1f3532;
+  --color-base-content: #e8efec;
+
+  --color-primary: #2fbfae;
+  --color-primary-content: #03201c;
+  --color-secondary: #fbbf24;
+  --color-secondary-content: #2a1a00;
+  --color-accent: #ff7a59;
+  --color-accent-content: #2a0d05;
+  --color-neutral: #07100f;
+  --color-neutral-content: #d7e6e3;
+
+  --color-info: #38bdf8;
+  --color-info-content: #04202c;
+  --color-success: #4ade80;
+  --color-success-content: #04200f;
+  --color-warning: #fbbf24;
+  --color-warning-content: #2a1a00;
+  --color-error: #f87171;
+  --color-error-content: #2a0707;
+
+  --radius-selector: 1rem;
+  --radius-field: 0.75rem;
+  --radius-box: 1.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+/* The font variables are set by next/font in layout.tsx. */
+@theme inline {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-base-100);
+    color: var(--color-base-content);
+    font-family: var(--font-sans);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* One heading typeface everywhere keeps every section and page consistent. */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.01em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
