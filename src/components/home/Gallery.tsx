@@ -9,7 +9,7 @@ const PHOTOS = [
   { src: "https://plus.unsplash.com/premium_photo-1661964155049-f8a24a60be74?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", alt: "Volunteers packing winter clothes", caption: "Winter clothes drive" },
   { src: photo("photo-1559027615-cd4628902d4a"), alt: "Hands passing a warm blanket to a family", caption: "Blanket distribution night" },
   { src: photo("photo-1532629345422-7515f3d16bb6"), alt: "Volunteers cleaning up a lakeside path", caption: "Lakeside cleanup crew" },
-  { src: photo("photo-1618477461853-cf6ed80faba5"), alt: "Hands planting a young sapling", caption: "Saplings going into the ground" },
+  { src: "https://plus.unsplash.com/premium_photo-1663040117567-ab8441cb7b04?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", alt: "Hands planting a young sapling", caption: "Saplings going into the ground" },
   { src: photo("photo-1582213782179-e0d53f98f2ca"), alt: "A blood donation camp in progress", caption: "Blood donation camp" },
   { src: photo("photo-1488521787991-ed7bbaae773c"), alt: "Children learning together outdoors", caption: "Evening classes for children" },
 ];
