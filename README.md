@@ -2,9 +2,9 @@
 
 **Show up. Serve together.** HopeHive is a community platform where neighbours create, join and track social service events in their local area, such as a Winter Clothes Distribution in Mirpur 10 or a Blanket Distribution in Mohammadpur, Dhaka.
 
-- **Live site:** https://YOUR-CLIENT.vercel.app _(replace with your deployed URL)_
-- **Server repository:** https://github.com/YOUR-USERNAME/hopehive-server _(replace)_
-- **Client repository:** this repository
+- **Live site:** https://hopehive-client.vercel.app/
+- **Server repository:** https://github.com/sakibrafi2002/hopehive-server
+- **Client repository:** https://github.com/sakibrafi2002/hopehive-client
 
 ## Features
 
