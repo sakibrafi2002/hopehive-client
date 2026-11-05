@@ -6,7 +6,7 @@ const photo = (id: string) => `https://images.unsplash.com/${id}?auto=format&fit
 
 // Static on purpose: moments from drives like the ones HopeHive volunteers organize.
 const PHOTOS = [
-  { src: photo("photo-1593113598332-cd288d649433"), alt: "Volunteers packing winter clothes", caption: "Winter clothes drive" },
+  { src: "https://plus.unsplash.com/premium_photo-1661964155049-f8a24a60be74?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", alt: "Volunteers packing winter clothes", caption: "Winter clothes drive" },
   { src: photo("photo-1559027615-cd4628902d4a"), alt: "Hands passing a warm blanket to a family", caption: "Blanket distribution night" },
   { src: photo("photo-1532629345422-7515f3d16bb6"), alt: "Volunteers cleaning up a lakeside path", caption: "Lakeside cleanup crew" },
   { src: photo("photo-1618477461853-cf6ed80faba5"), alt: "Hands planting a young sapling", caption: "Saplings going into the ground" },

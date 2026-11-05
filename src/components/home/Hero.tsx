@@ -54,7 +54,7 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-xl lg:max-w-none">
           <div className="aspect-[4/3] overflow-hidden rounded-box border-4 border-base-100 bg-base-200 shadow-2xl">
             <SafeImage
-              src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=1200&q=80"
+              src="https://plus.unsplash.com/premium_photo-1683140538884-07fb31428ca6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
               alt="Volunteers sorting donated winter clothes into boxes"
               loading="eager"
               className="h-full w-full object-cover"
