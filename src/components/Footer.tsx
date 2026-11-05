@@ -14,12 +14,12 @@ const QUICK_LINKS = [
 ];
 
 const SOCIALS = [
-  { href: "https://x.com", label: "HopeHive on X", icon: FaXTwitter },
-  { href: "https://facebook.com", label: "HopeHive on Facebook", icon: FaFacebookF },
-  { href: "https://instagram.com", label: "HopeHive on Instagram", icon: FaInstagram },
-  { href: "https://linkedin.com", label: "HopeHive on LinkedIn", icon: FaLinkedinIn },
-  { href: "https://youtube.com", label: "HopeHive on YouTube", icon: FaYoutube },
-  { href: "https://github.com", label: "HopeHive on GitHub", icon: FaGithub },
+  { href: "https://x.com/sakibrafi2001", label: "HopeHive on X", icon: FaXTwitter },
+  { href: "https://facebook.com/sakibrafi2001", label: "HopeHive on Facebook", icon: FaFacebookF },
+  { href: "https://instagram.com/sakibrafi2001", label: "HopeHive on Instagram", icon: FaInstagram },
+  { href: "https://linkedin.com/sakibrafi2002", label: "HopeHive on LinkedIn", icon: FaLinkedinIn },
+  { href: "https://youtube.com/sakibrafi2001", label: "HopeHive on YouTube", icon: FaYoutube },
+  { href: "https://github.com/sakibrafi2002", label: "HopeHive on GitHub", icon: FaGithub },
 ];
 
 export function Footer() {
@@ -101,14 +101,14 @@ export function Footer() {
               </li>
               <li className="flex gap-3">
                 <LuPhone aria-hidden="true" className="mt-0.5 shrink-0 text-lg text-secondary" />
-                <a href="tel:+8801700000000" className="hover:text-secondary">
-                  +880 1700-000000
+                <a href="tel:+8801626648842" className="hover:text-secondary">
+                  +880 1626-648842
                 </a>
               </li>
               <li className="flex gap-3">
                 <LuMail aria-hidden="true" className="mt-0.5 shrink-0 text-lg text-secondary" />
-                <a href="mailto:hello@hopehive.example" className="hover:text-secondary">
-                  hello@hopehive.example
+                <a href="mailto:sakibrafi2001@gmail.com" className="hover:text-secondary">
+                  sakibrafi2001@gmail.com
                 </a>
               </li>
             </ul>
